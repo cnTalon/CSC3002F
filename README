@@ -1,0 +1,12 @@
+21 April 2024
+
+Program description (49 words):
+
+Translates virtual memory address to physical address using page table mapping with a hashmap, converting hexadecimal virtual addresses to binary (padded to 12 bits), getting related physical page entries (leftmost 5 bits), and combining with page offsets to get physical address then outputting results to "output-OS1".
+
+How to use:
+1. Navigate to the directory containing the program
+2. Type into console: javac OS1Assignment.java
+3. Once complied type: java OS1Assignment.java <filename>
+3. Program does translation and outputs to textfile: "output-OS1" 
+4. Program ends.
